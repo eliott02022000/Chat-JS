@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #D3D3D3;
+	background-color: black;
+}
+
+header {
+	background-color: #3CB371;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+header h1 {
+	color:white;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.containermessages {
+	height: 580px;
+	width: 700px;
+	background-color: grey;
+	overflow: scroll;
+	display: block;
+	margin: auto;
+	margin-top: 110px;
+	border:none;
+	border-radius:20px;
+	box-shadow:3px 3px 12px #999;
+	font:bold 13px Arial;
+}
+
+#showmessages {
+	list-style: none;
+}
+
+.changeinput {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#message {
+	width: 300px;
+	height: 50px;
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:5px;
+	box-shadow:2px 2px 6px #999;
+	background:#fff;
+	font:bold 13px Arial;
+	color:#555;
+	text-align: center;
+}
+
+#submit {
+	width:130px;
+	height: 30px;
+	cursor:pointer;
+	text-transform:capitalize;
+	border-radius:12px 0 12px 0;
+	background: #3CB371;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding: 6px 5 16px 0;
+}
+
+#moveid {
+	height: 100px;
+	width: 700px;
+	display: block;
+	margin: auto;
+	margin-top: 15%;
+}
+
+#username {
+	height: 30px;
+	width: 300px;
+	color: grey;
+}
+
+#password {
+	height: 30px;
+	width: 300px;
+	color: grey;
+}

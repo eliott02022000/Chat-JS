@@ -1,0 +1,20 @@
+{
+  "name": "project-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "mustache": "^3.0.1",
+    "navigo": "^7.1.2",
+    "sweetalert": "^2.1.2"
+  }
+}
